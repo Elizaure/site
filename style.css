@@ -1,0 +1,63 @@
+body{
+  background: #FAEDCA;
+  color: #B48B7D;
+  font-size: 25px;
+  font-family: Cardinal;
+}
+
+h1{
+  font-family: Cardinal;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+h2{
+  font-family: Cardinal;
+  color: black;
+  font-weight: lighter;
+  font-size: 8px;
+}
+a{
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+#banner{
+  text-align: center;
+  background-image: url("https://s2.qwant.com/thumbr/0x0/4/f/c79133e62e81fba0ad807b56efc6cb/b_1_q_0_p_0.jpg?u=http%3A%2F%2Fwww.beastsofwar.com%2Fwp-content%2Fuploads%2F2015%2F03%2FMunchkin-Cards.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: #4B2E39;
+  text-shadow: 3px 3px 7px white;
+  marging:none;
+}
+#banner h1{
+  color: #4B2E39;
+  font-size: 50px;
+  font-weight: bold;
+}
+#banner p{
+  color: #4B2E39;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 20px;
+}
+#footer a:hover {
+  color: white;
+}
