@@ -15,7 +15,7 @@
     <h1>Une tite partie de Munchkin ?</h1>
     <p>je bats ton rat musclé avec mon dragon plutonium</p>
     <p>
-      <a href="#" class="btn btn-warning">Start now</a>
+      <a href="http://www.worldofmunchkin.com/game/" class="btn btn-warning" target="_blank">Lien jeu</a>
     </p>
 </div>
 
@@ -23,30 +23,38 @@
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-3">
        <div class="card text-center">
-          <img src="images/briefcase.png" alt="picture description" width="100">
+          <a href="http://mon-lien.com"><img src="images/regles.jpg" alt="picture description" width="120" onmouseover="document.getElementById('div1').style.display = 'block'; bigImg(this);" onmouseout="document.getElementById('div1').style.display = 'none'; normalImg(this);">
            <h2>Règles</h2>
-           <p>A fast app, <strong>very fast</strong> app</p>
+             <div id="div1" style="display: none">
+                <p>Cette porte de <strong>donjon</strong> n'a pas l'air terrible</p>
+             </div>
         </div>   
     </div>
     <div class="col-xs-12 col-sm-6 col-md-3">
         <div class="card text-center">
-            <img src="images/diamond.png" alt="picture description" width="100">
-            <h2>Simple</h2>
-            <p>A simple app, <strong>very simple</strong> app</p>
+           <a href="http://mon-lien.com"><img src="images/objec.jpg" alt="picture description" width="120" onmouseover="document.getElementById('div2').style.display = 'block'; bigImg(this);" onmouseout="document.getElementById('div2').style.display = 'none'; normalImg(this);">
+            <h2>Objectif</h2>
+              <div id="div2" style="display: none">
+                <p>Faut pas s'y fier, personne n'en ai jamais <strong>ressorti</strong> </p>
+              </div>  
         </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-3">
         <div class="card text-center">
-            <img src="images/heart.png" alt="picture description" width="100">
-            <h2>Awesome</h2>
-            <p>An awesome app, <strong>very awesome</strong> app</p>
+           <a href="http://mon-lien.com"><img src="images/astu.jpg" alt="picture description" width="120"onmouseover="document.getElementById('div3').style.display = 'block'; bigImg(this);" onmouseout="document.getElementById('div3').style.display = 'none'; normalImg(this);">
+            <h2>Astuces</h2>
+             <div id="div3" style="display: none">
+               <p>Sortez-moi d'ici, c'est tout <strong>gluant</strong> ! </p>
+             </div>
         </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="card text-center">
-                <img src="images/laptop.png" alt="picture description" width="100">
-                <h2>Beautiful</h2>
-                <p>A beautiful app, <strong>very beautiful</strong> app</p>
+               <a href="http://mon-lien.com"><img src="images/extensionn.jpg" alt="picture description" width="120" onmouseover="document.getElementById('div4').style.display = 'block'; bigImg(this);" onmouseout="document.getElementById('div4').style.display = 'none'; normalImg(this);">
+                <h2>Extensions</h2>
+                 <div id="div4" style="display: none">
+                  <p>Quand je m'ennuie, faut que j'emmerde l'<strong>elfe</strong> ! </p>
+                </div>
             </div>
     </div>
   </div>
@@ -72,7 +80,9 @@
                 var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
                 })(document, 'script');</script>
       </div> 
+      
 </div>
+
 
 
 
@@ -86,5 +96,17 @@
   <li><a href="#"><i class="fa fa-github"></i></a></li>
 </ul>
   </div>
+
+  <script>
+function bigImg(x) {
+    x.style.height = "170px";
+    x.style.width = "150px";
+}
+
+function normalImg(x) {
+    x.style.height = "120px";
+    x.style.width = "120px";
+}
+</script>
   </body>
 </html>
